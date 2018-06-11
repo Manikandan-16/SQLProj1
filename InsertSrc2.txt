@@ -1,0 +1,16 @@
+
+Insert into Src2 (EmpID,Name,Level) Values ('1001','Mani','11');
+Insert into Src2 (EmpID,Name,Level) Values ('1003','Raju','13');
+Insert into Src2 (EmpID,Name,Level) Values ('1004','Ramu','10');
+Insert into Src2 (EmpID,Name,Level) Values ('1005','Imman','11');
+Insert into Src2 (EmpID,Name,Level) Values ('1008','Rani','10');
+Insert into Src2 (EmpID,Name,Level) Values ('1009','Vani','12');
+Insert into Src2 (EmpID,Name,Level) Values ('1010','Meena','11');
+Insert into Src2 (EmpID,Name,Level) Values ('1011','Nandhini','12');
+Insert into Src2 (EmpID,Name,Level) Values ('1012','Swetha','09');
+Insert into Src2 (EmpID,Name,Level) Values ('1013','Swamy','12');
+Insert into Src2 (EmpID,Name,Level) Values ('1014','Sathya','10');
+Insert into Src2 (EmpID,Name,Level) Values ('1016','Freddo','10');
+Insert into Src2 (EmpID,Name,Level) Values ('1017','Salah','11');
+Insert into Src2 (EmpID,Name,Level) Values ('1018','Messi','12');
+Insert into Src2 (EmpID,Name,Level) Values ('1019','Ronaldo','10');

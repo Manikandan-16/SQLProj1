@@ -1,0 +1,76 @@
+
+-----------------------Test Case 1-------------------------
+
+Select * from Trg;  
+
+--> Should Return 11 rows
+
+1001|Mani|Digital|11
+1003|Raju|Digital|13
+1004|Ramu|Operations|10
+1005|Imman|Digital|11
+1008|Rani|Digital|10
+1009|Vani|Operations|12
+1010|Meena|Operations|11
+1011|Nandhini|Digital|12
+1012|Swetha|Operations|9
+1013|Swamy|Digital|12
+1014|Sathya|Technology|10
+
+-----------------------Test Case 2----------------------------
+
+Select Distinct EmpId from Trg ;
+
+--> Should be 11 rows.
+
+1001
+1003
+1004
+1005
+1008
+1009
+1010
+1011
+1012
+1013
+1014
+
+-----------------------Test Case 3----------------------------
+
+select * from Src2 where EmpID NOT IN (select EmpID from Trg);
+
+--> Should return 4 rows
+
+1016|Freddo|10
+1017|Salah|11
+1018|Messi|12
+1019|Ronaldo|10
+
+-----------------------Test Case 4----------------------------
+
+select * from Src1 where EmpID NOT IN (select EmpID from Trg);
+
+--> Should return 4 rows
+
+1002|Mano|Technology
+1006|Saba|Operations
+1007|Vino|Technology
+1015|John|Operations
+
+-----------------------Test Case 5----------------------------
+
+select EmpID from Trg Group By EmpID having count(*) > 1;
+
+--> Should return Null, Query to check duplicate values in the Target table.
+
+-----------------------Test Case 6----------------------------
+
+Select * from Trg where Trg.Name='Mani' AND Trg.EmpID=1001;
+
+--> Query to check the values are correct
+
+-------------------------------------------------------------
+
+
+
+

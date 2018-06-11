@@ -1,0 +1,3 @@
+Insert into Trg (EmpID, Name, Dept, Level)
+select a.EmpID,a.Name,a.Dept,b.Level from Src1 a, Src2 b
+where a.EmpID = b.EmpID;

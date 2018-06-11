@@ -1,0 +1,16 @@
+
+Insert into Src1 (EmpID,Name,Dept) Values ('1001','Mani','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1002','Mano','Technology');
+Insert into Src1 (EmpID,Name,Dept) Values ('1003','Raju','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1004','Ramu','Operations');
+Insert into Src1 (EmpID,Name,Dept) Values ('1005','Imman','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1006','Saba','Operations');
+Insert into Src1 (EmpID,Name,Dept) Values ('1007','Vino','Technology');
+Insert into Src1 (EmpID,Name,Dept) Values ('1008','Rani','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1009','Vani','Operations');
+Insert into Src1 (EmpID,Name,Dept) Values ('1010','Meena','Operations');
+Insert into Src1 (EmpID,Name,Dept) Values ('1011','Nandhini','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1012','Swetha','Operations');
+Insert into Src1 (EmpID,Name,Dept) Values ('1013','Swamy','Digital');
+Insert into Src1 (EmpID,Name,Dept) Values ('1014','Sathya','Technology');
+Insert into Src1 (EmpID,Name,Dept) Values ('1015','John','Operations');

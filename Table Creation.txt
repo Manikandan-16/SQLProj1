@@ -1,0 +1,21 @@
+CREATE TABLE Src1 (
+    EmpID int,
+    Name varchar(255),
+    Dept varchar(255) 
+);
+
+
+CREATE TABLE Src2 (
+    EmpID int,
+    Name varchar(255),
+    Level int 
+);
+
+
+CREATE TABLE Trg (
+    EmpID int,
+    Name varchar(255),
+    Dept varchar(255),
+    Level int 
+);
+
